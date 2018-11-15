@@ -51,13 +51,18 @@ header button:active{
     box-shadow: 0 1px 8px 0px rgba(0,0,0,0.08);
 }
 .taskCard h4{
+    color: gray;
     font-size: 1.1rem;
     font-weight: bolder;
-    margin-bottom: 32px;
+    margin-bottom: 8px;
+}
+.taskCard h4 input{
+    margin-right: 8px;
 }
 .taskCard p{
     line-height: 1.5rem; 
-    margin-bottom: 16px;
+    margin: 32px 0;
+    overflow-wrap: break-word;
 }
 .taskCard .card-content{
     padding: 24px 16px;
@@ -67,7 +72,19 @@ header button:active{
     margin: 8px 0;
     font-size: .8rem;
     color: lightgray;
+    line-height: 1.3rem; 
+    text-transform: capitalize;
 }
+.taskCard span:first-of-type{
+    margin-left: 28px;
+}
+.taskCard span:last-of-type{
+    margin-bottom: 0;
+    padding-top: 16px;
+    border-top: 1px solid #eaeaea;
+}
+
+/* Cards status */
 .taskLate h4{
     color: red;
 }
