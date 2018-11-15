@@ -18,7 +18,7 @@ header{
 header h1{
     font-size: 2rem;
     font-weight: bolder;
-    margin-bottom: 16px;
+    margin-bottom: 32px;
 }
 header button{
     width: 100%;
@@ -39,7 +39,7 @@ header button:hover,
 header button:active{
     background-color: #045AFD;
     color: #fff;
-    box-shadow: 0 1px 8px 0px rgba(0,0,0,0.08);
+    box-shadow: 0 1px 16px 0px rgba(4,90,253,0.3);
 }
 
 /* Task Cards */
@@ -49,9 +49,13 @@ header button:active{
     margin-bottom: 15px;
     border-radius: 10px;
     box-shadow: 0 1px 8px 0px rgba(0,0,0,0.08);
+    transition: all ease-in-out .3s;
+}
+.taskCard:hover{
+    box-shadow: 0 8px 40px -8px rgba(0,0,0,0.2);
 }
 .taskCard h4{
-    color: gray;
+    color: #c1c1c1;
     font-size: 1.1rem;
     font-weight: bolder;
     margin-bottom: 8px;
