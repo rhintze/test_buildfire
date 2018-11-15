@@ -44,7 +44,7 @@ header button:active{
 
 /* Task Cards */
 .taskCard{
-    background-color: white;
+    background-color: #fff;
     overflow: hidden;
     margin-bottom: 15px;
     border-radius: 10px;
@@ -90,11 +90,16 @@ header button:active{
 
 /* Cards status */
 .taskLate h4{
-    color: red;
+    color: #ff0000;
+}
+.taskCompleted span:last-of-type{
+    color: #ff0000;
 }
 .taskCompleted h4{
    color: #045AFD;
 }
+
+
 .taskCard >img{
     width: 100%;;
 }
