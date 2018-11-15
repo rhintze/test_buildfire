@@ -1,0 +1,10 @@
+1.- No FontStyle 
+2.- No clear hierarchy within task card
+3.- Lines of text are too long 
+4.- Blocks of color are too vibrant
+5.- There are no defined groups of information
+6.- Make sure words in long lines of text can be wrapped
+7.- Try avoiding !important inside CSS
+8.- Color scheme can be improved
+9.- Microinteractions can be added
+
