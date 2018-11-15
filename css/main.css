@@ -43,6 +43,9 @@ header button:active{
 }
 
 /* Task Cards */
+.taskCard >img{
+    width: 100%;
+}
 .taskCard{
     background-color: #fff;
     overflow: hidden;
@@ -92,7 +95,7 @@ header button:active{
 .taskLate h4{
     color: #ff0000;
 }
-.taskCompleted span:last-of-type{
+.taskLate span:last-of-type{
     color: #ff0000;
 }
 .taskCompleted h4{
@@ -100,9 +103,6 @@ header button:active{
 }
 
 
-.taskCard >img{
-    width: 100%;;
-}
 @media(max-width: 768px){
     .main-container{
         margin: 0 64px;
