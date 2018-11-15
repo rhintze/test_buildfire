@@ -7,4 +7,6 @@
 7.- Try avoiding !important inside CSS
 8.- Color scheme can be improved
 9.- Microinteractions can be added
+10.- Paddings/Proximity can be improved
+11.- HTML Structure could benefit from some extra elements
 
