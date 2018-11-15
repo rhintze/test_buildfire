@@ -13,12 +13,12 @@ body{
 }
 /* Header */
 header{
-    padding: 40px 0 16px 0;
+    padding: 48px 0 16px 0;
 }
 header h1{
-    font-size: 2rem;
+    font-size: 1.8rem;
     font-weight: bolder;
-    margin-bottom: 32px;
+    margin-bottom: 44px;
 }
 header button{
     width: 100%;
@@ -27,7 +27,7 @@ header button{
     text-transform: uppercase;
     font-weight: bolder;
     padding: 16px 0;
-    background-color: #d3d8de;
+    background-color: #b5babf;
     border: 0;
     border-radius: 8px;
     transition: all ease-in-out .3s;
@@ -39,7 +39,7 @@ header button:hover,
 header button:active{
     background-color: #045AFD;
     color: #fff;
-    box-shadow: 0 1px 16px 0px rgba(4,90,253,0.3);
+    box-shadow: 0 1px 24px 0px rgba(4,90,253,0.5);
 }
 
 /* Task Cards */
