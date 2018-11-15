@@ -45,26 +45,44 @@ header button:active{
 /* Task Cards */
 .taskCard{
     background-color: white;
-    padding: 10px;
-    margin-top: 15px;
+    overflow: hidden;
+    margin-bottom: 15px;
     border-radius: 10px;
-    box-shadow: gray 2px 2px;
+    box-shadow: 0 1px 8px 0px rgba(0,0,0,0.08);
 }
-.taskLate{
-    background-color: lightpink !important;
+.taskCard h4{
+    font-size: 1.1rem;
+    font-weight: bolder;
+    margin-bottom: 32px;
 }
-.taskCompleted{
-    background-color: lightgreen !important;
+.taskCard p{
+    line-height: 1.5rem; 
+    margin-bottom: 16px;
+}
+.taskCard .card-content{
+    padding: 24px 16px;
+}
+.taskCard span{
+    display: block;
+    margin: 8px 0;
+    font-size: .8rem;
+    color: lightgray;
+}
+.taskLate h4{
+    color: red;
+}
+.taskCompleted h4{
+   color: #045AFD;
 }
 .taskCard >img{
-    width: 160px;
+    width: 100%;;
 }
 @media(max-width: 768px){
     .main-container{
         margin: 0 64px;
     }
 }
-@media(max-width: 320px){
+@media(max-width: 420px){
     .main-container{
         margin: 0 16px;
     }
