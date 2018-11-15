@@ -1,0 +1,71 @@
+*, *:before, *:after {
+	box-sizing: border-box;
+}
+/* General Styling */
+body{
+    margin: 0;
+    background-color:#E5E9EC;
+    font-family: 'Montserrat', sans-serif;
+    color: #152334;
+}
+.main-container{
+    margin: 0 30vw;
+}
+/* Header */
+header{
+    padding: 40px 0 16px 0;
+}
+header h1{
+    font-size: 2rem;
+    font-weight: bolder;
+    margin-bottom: 16px;
+}
+header button{
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bolder;
+    padding: 16px 0;
+    background-color: #d3d8de;
+    border: 0;
+    border-radius: 8px;
+    transition: all ease-in-out .3s;
+    box-shadow: 0 1px 8px 0px rgba(0,0,0,0.08);
+    outline: 0;
+    cursor: pointer;
+}
+header button:hover,
+header button:active{
+    background-color: #045AFD;
+    color: #fff;
+    box-shadow: 0 1px 8px 0px rgba(0,0,0,0.08);
+}
+
+/* Task Cards */
+.taskCard{
+    background-color: white;
+    padding: 10px;
+    margin-top: 15px;
+    border-radius: 10px;
+    box-shadow: gray 2px 2px;
+}
+.taskLate{
+    background-color: lightpink !important;
+}
+.taskCompleted{
+    background-color: lightgreen !important;
+}
+.taskCard >img{
+    width: 160px;
+}
+@media(max-width: 768px){
+    .main-container{
+        margin: 0 64px;
+    }
+}
+@media(max-width: 320px){
+    .main-container{
+        margin: 0 16px;
+    }
+}
